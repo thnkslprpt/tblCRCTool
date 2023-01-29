@@ -158,7 +158,7 @@ int main(int argc, char **argv)
     /* Close file and check*/
     if (close(fd) != 0)
     {
-        printf("\nerror: Cannot close file!\n");
+        printf("\nerror: Cannot  close file!\n");
         printf("%s\n", strerror(errno));
         exit(1);
     }
